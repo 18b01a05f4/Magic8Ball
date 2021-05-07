@@ -1,0 +1,44 @@
+.container {
+	background-color: white;
+	height: 400px;
+	width: 400px;
+	margin-top: -300px;
+	border-radius: 10px;
+	margin-left: 750px;
+	box-shadow: 5px 10px 18px #74767a47;
+}
+.ip {
+	line-height: 15px;
+	margin: 12px;
+	padding : 17px;
+	width: 350px;
+	border : 1px solid #ccc;
+	border-radius: 5px;
+}
+input[type=password]:focus {
+  border: 2px solid #539be5;
+}
+input[type=email]:focus {
+  border: 2px solid #539be5;
+}
+.ip1 {
+	line-height: 20px;
+	margin: 12px;
+	padding : 17px;
+	width: 250px;
+	border-radius: 5px;
+}
+.txt {
+	margin-right: 750px;
+	padding-top: 250px;
+}
+.ip {
+	line-height: 15px;
+	margin: 12px;
+	padding : 17px;
+	width: 350px;
+}
+.last {
+	margin-left: 600px;
+	margin-top: 25px;
+}

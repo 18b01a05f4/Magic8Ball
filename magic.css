@@ -1,0 +1,24 @@
+.image {
+	margin-top: 85px;
+}
+.flexcontainer {
+	display: flex;
+	height: 100%;
+}
+.box1 {
+	flex: 1;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.box2 {
+	flex-direction: column;
+	display: flex;
+	flex:1;
+}
+#answer {
+	margin-top: -251px;
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column; 
+}

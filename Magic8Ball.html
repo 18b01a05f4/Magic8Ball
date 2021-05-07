@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic8ball</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="magic.css">
+</head>
+<body>
+	<div style="background-image: url('https://i.pinimg.com/originals/26/ef/88/26ef8831271ec29a31bcbef6e0ef1937.jpg');background-repeat: no-repeat;background-size: cover;height: 620px;">
+		<div class="flexcontainer">
+			<div class="box1">		
+				<img class="image" src="https://marketing.emailonacid.com/hubfs/2017-template-images/8ball/Magic8BallEmail_EmptyBall.png">
+
+				<button type="button" class="btn btn-light" id="answer"></button>
+			</div>
+			<h2 class="box2" style="margin-top: 220px;margin-left: 20px" >Ask the Magic 8 Ball fortune teller!
+			Concentrate on your question and then click the Magic 8 Ball to see your prediction!</h2>	
+			<div class="box2" style="margin-right: 30px;margin-top: 418px;margin-left: -581px;"><button type="button" class="btn btn-primary">Click to play</button></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var ans = ["It is certain","It is decidedly so","Without a doubt","Yes - definitely","You may rely on it","As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes","Don't count on it", "My reply is no","My sources say no", "Outlook not so good","Very doubtful","Reply hazy, try again", "Ask again later", "Better not tell you now",
+   			"Cannot predict now", "Concentrate and ask again"];
+   			var answer = document.getElementById("answer");
+   		document.addEventListener("click",function() {
+   			var num = Math.floor(Math.random() * Math.floor(ans.length));
+   			answer.innerText = ans[num];
+   		});
+	</script>
+</body>
+</html>
