@@ -1,3 +1,3 @@
 <?php
-include_once("Magic8ball.html");
+include_once("Magic8Ball.html");
 ?>
