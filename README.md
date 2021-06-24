@@ -4,4 +4,4 @@ It is just a fun game to predict your thoughts!!
 
 Just made for practice...
 
-Heroku Link --> https://magiceightball-app.herokuapp.com/
+
